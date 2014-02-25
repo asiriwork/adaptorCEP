@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="file_copy" >
+    
+
+    <delete file="/opt/wso2cep-3.0.0/repository/components/dropins/cep-input-event-adaptor-1.0-SNAPSHOT.jar"/>
+<!-- -->
+    <delete dir="/opt/wso2cep-3.0.0/repository/components/dropins/classes"/>
+    <delete dir="/opt/wso2cep-3.0.0/repository/components/dropins/scr-plugin-generated"/>
+    <delete dir="/opt/wso2cep-3.0.0/repository/components/dropins/maven-status"/>
+     
+     <copy file="./testIn/org.wso2.event.adaptor.testIn/target/cep-input-event-adaptor-1.0-SNAPSHOT.jar" tofile="/opt/wso2cep-3.0.0/repository/components/dropins/cep-input-event-adaptor-1.0-SNAPSHOT.jar" overwrite="true"/>
+<!--  
+     <copy todir="/opt/wso2cep-3.0.0/repository/components/dropins/classes/" overwrite="true">
+    <fileset dir="./testIn/org.wso2.event.adaptor.testIn/target/classes"/>
+  </copy>
+
+ <copy todir="/opt/wso2cep-3.0.0/repository/components/dropins/scr-plugin-generated/" overwrite="true">
+    <fileset dir="./testIn/org.wso2.event.adaptor.testIn/target/scr-plugin-generated"/>
+  </copy>
+
+   <copy todir="/opt/wso2cep-3.0.0/repository/components/dropins/maven-status/" overwrite="true">
+    <fileset dir="./testIn/org.wso2.event.adaptor.testIn/target/maven-status"/>
+  </copy>
+      -->
+
+   
+    
+</project>

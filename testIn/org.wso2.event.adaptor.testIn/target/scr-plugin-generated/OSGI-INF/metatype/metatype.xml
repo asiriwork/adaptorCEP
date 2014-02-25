@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="input.TestInEventAdaptorService.component" name="%input.TestInEventAdaptorService.component.name" description="%input.TestInEventAdaptorService.component.description"/>
+    <Designate pid="input.TestInEventAdaptorService.component">
+        <Object ocdref="input.TestInEventAdaptorService.component"/>
+    </Designate>
+</metatype:MetaData>

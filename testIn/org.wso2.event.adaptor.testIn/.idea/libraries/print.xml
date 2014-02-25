@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="print">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/java/org/wso2/event/adaptor/udp/print/print.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
